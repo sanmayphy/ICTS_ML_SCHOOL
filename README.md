@@ -15,5 +15,5 @@ Pytorch installation following [PyTorch Website](https://pytorch.org/get-started
 ```
 pip install torch torchvision torchaudio
 ```
-Pytorch-Geometric installation following [PyG Website]((https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html)
+Pytorch-Geometric installation following [PyG Website](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html)
 
