@@ -21,7 +21,7 @@ Pytorch-Geometric installation following [PyG Website](https://pytorch-geometric
 pip install torch_geometric
 pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.0.1+cpu.html
 ```
-For MAC arm64 users, please use the following command 
+For MAC arm64 users, please use the following command (with OSX version = 13.5)
 ```
 MACOSX_DEPLOYMENT_TARGET=13.5 CC=clang CXX=clang++ python -m pip --no-cache-dir  install  torch-scatter -f https://data.pyg.org/whl/torch-2.0.1+${cpu}.html
 MACOSX_DEPLOYMENT_TARGET=13.5 CC=clang CXX=clang++ python -m pip --no-cache-dir  install  torch-sparse -f https://data.pyg.org/whl/torch-2.0.1+${cpu}.html
